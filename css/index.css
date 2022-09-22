@@ -1,0 +1,12 @@
+canvas {
+    border: 1px solid #000;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
