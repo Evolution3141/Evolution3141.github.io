@@ -1,4 +1,4 @@
-
+const p1 = document.getElementById('generations');
 
 class Population {
   //* Private
@@ -72,7 +72,7 @@ class Population {
       newPop[i] = new Point(childDNA);  
     }
 
-
+    p1.innerHTML = `Generation # : ${this.generation + 1}`;
     this.pop = newPop;
   }
 

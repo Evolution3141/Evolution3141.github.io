@@ -89,7 +89,7 @@ class Point {
 
   render () {
     if (this.dead || this.isBest) return;
-    let color = '#D1512D';
+    let color = '#8758FF';
 
     ctx.beginPath();
     ctx.fillStyle = color;
@@ -99,7 +99,7 @@ class Point {
 
   renderBest () {
     if (this.dead || !this.isBest) return;
-    let color = '#F637EC';
+    let color = '#FFDE00';
 
     ctx.beginPath();
     ctx.fillStyle = color;

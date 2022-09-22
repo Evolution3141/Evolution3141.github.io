@@ -12,7 +12,9 @@
     <div class="container">
       <canvas id="canvas"></canvas>
 
-      <h1>Natural selection(Evolution)</h1>
+      <span id="generations">Generation # : 1</span>
+
+      <h1>Die Evolution</h1>
 
       <p>
         Bei diesem Projekt geht es um Evolution. Sie fragen sich vielleicht, was diese Punkte auf dem Bildschirm sind und was sie mit Evolution zu tun haben.
@@ -22,6 +24,11 @@
       <p>
         In jedem Zellkern jeder Zelle befindet sich DNA.Desoxyribonukleinsäure, ist ein Molekül, das trägt Informationen, die für die Entwicklung und Funktion des Organismus notwendig sind.
         DNA besteht aus zwei miteinander verbundenen Strängen, die sind umeinander verdreht und ähneln einer gewundenen Leiter - eine Form, die als Doppelhelix bekannt ist.
+      </p>
+
+      <img class="img" src="./iamges/gene.jpg" alt="">
+
+      <p>
         Teile der DNA, die als Bauanleitung für Proteine ​​(Moleküle, die der Organismus für Entwicklung und Funktion benötigt) dienen, nennt man Gene. Nur 1 Prozent der DNA sind Gene.
         Kurz gesagt: Gene sind Teile der DNA, die für die Menge von sichtbarer Merkmale eines Organismus verantwortlich sind.
       </p>
@@ -35,7 +42,7 @@
 
       <h3>Die Mutation</h3>
       <p>
-        Eine Mutation ist eine Veränderung in der Sequenz der DNA eines Organismus.
+        Eine Mutation ist eine Veränderung in der Sequenz der DNA eines Organismus.<br>
         Jedes Individuum hat die Möglichkeit, mit einem etwas anderen genetischen Code als seine Eltern geboren zu werden,
         was bedeutet, dass seine Eigenschaften unterschiedlich sein werden, was seine Überlebenschancen und/oder eine erfolgreiche Fortpflanzung erhöhen/verringern kann.
         Wenn diese Mutationen es wahrscheinlicher machen, dass er lange genug überlebt, um sich fortzupflanzen, werden sich seine mutierten Gene auf seine Kinder ausbreiten und so weiter.
@@ -47,12 +54,27 @@
       <p>
         Der Prozess, bei dem Organismen, die besser an ihre Umgebung angepasst sind, dazu neigen, zu überleben und mehr Nachkommen zu produzieren. Auf diese Weise werden ihre Gene an neue Generationen weitergegeben.
         Das bedeutet, dass sich Organismen im Laufe der Generationen immer mehr an ihre Umgebung anpassen.Solange zwischen den Organismen eine gewisse Variation besteht, wird es unvermeidlich eine Auswahl von Individuen mit der günstigsten Variation geben.
-       
+      </p>
+
+      <img class="img" src="./iamges/abc.jpg" alt="">
+
+      <p>
         Giraffen sind ein Beispiel dafür:
         Diese Giraffen mit längeren Hälsen konnten länger überleben und sich fortpflanzen und so die Eigenschaft an die nächste Generation weitergeben. Diejenigen mit kürzeren Hälsen und Zugang zu weniger Nahrung hätten weniger Überlebenschancen, um ihre Gene weiterzugeben.
       </p>
 
       <h2>Simulation</h2>
+
+      <p>
+        Dies am Anfang der Seite ist eine sehr vereinfachte Simulation der Evolution.<br>Die Punkte bilden die Bevölkerung und bewegen sich in zufällige Richtungen.
+        Diese zufälligen Richtungen, in die sich der Punkt bewegt, sind genau seine Gene.
+        Punkte, die es schaffen, dem roten Punkt so nahe wie möglich zu kommen, haben eine größere Chance, "Gene"(seine Eigenschaften) an die nächste Generation weiterzugeben.
+        Dies stellt natürliche Selektion dar. Es gibt auch Mutationen. Das sieht man leichter nach einigen Generationen daran, dass es fast jedes Mal ein paar Punkte gibt, die sich nicht mit der restlichen Bevölkerung bewegen.
+        Diese Mutationen werden benötigt, um Punkte mit neuen Eigenschaften zu erzeugen, die möglicherweise schneller den roten Punkt erreichen können.
+        Dieser Prozess führt zu Punkten, die den roten Punkt erreichen, aber es dauert viele Generationen, bis das Optimum erreicht ist.
+      </p>
+
+      <h2></h2>
     </div>
 
     <script src="./JavaScript/Classes/Vector.js"></script>

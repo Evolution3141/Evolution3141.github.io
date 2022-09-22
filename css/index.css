@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+
+body {
+    background-color: #DAEAF1;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
 canvas {
     border: 1px solid #000;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000;
+}
+
+h1,h2,h3, p {
+    font-family: 'Tinos';
+    text-align: justify;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 50px;
 }
 
 .container {
@@ -9,4 +31,11 @@ canvas {
 
 .bold {
     font-weight: bold;
+}
+
+.img {
+    display: block;
+    box-shadow: 0px 0px 5px #000;
+    margin: 0 auto;
+    max-width: 100%;
 }

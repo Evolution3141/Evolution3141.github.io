@@ -14,7 +14,7 @@ function run() {
   //draw obsticles
   for (const obsticle of obsticles) {
 
-    ctx.fillStyle = '#31087B';
+    ctx.fillStyle = '#181818';
     ctx.fillRect(obsticle.pos.x, obsticle.pos.y ,
                 obsticle.size.x, obsticle.size.y);
   }
